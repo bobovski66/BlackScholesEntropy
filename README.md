@@ -11,7 +11,7 @@ We explore how **market uncertainty**, measured via entropy, influences pricing 
 ---
 
 ## **Data Source**
-The dataset used in this project was sourced from **Kaggle**, containing historical options pricing data, including:
+The dataset used in this project was sourced from [**Kaggle**](https://www.kaggle.com/datasets/kylegraupe/aapl-options-data-2016-2020), containing historical options pricing data This dataset is a combination of four years of Apple ($AAPL) options end of day quotes ranging from 01-2016 to 03-2023. Each row represents the information associated with one contract's strike price and a given expiration date., including:
 - **Bid-Ask Spreads** (Market prices traders are willing to buy/sell at)
 - **Implied Volatility** (Market expectations of future volatility)
 - **Market Conditions** (Price movements, trading volume, etc.)
@@ -138,7 +138,7 @@ Finally, we implemented a **backtesting framework** to evaluate whether a tradin
    ```
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r <packages>
    ```
 3. Run the Jupyter Notebook for step-by-step execution.
 
